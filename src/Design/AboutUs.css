@@ -1,0 +1,59 @@
+/* AboutUs.css */
+
+/* General styling for the About Us section */
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Title styling */
+.about-us-title {
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: bold;
+    color: #1976d2; /* Primary color */
+    margin-bottom: 1rem; /* Spacing below title */
+}
+
+/* Description styling */
+.about-us-description {
+    font-size: 1.25rem; /* Adjust size as needed */
+    margin-bottom: 1.5rem; /* Spacing below description */
+}
+
+/* Contact info styling */
+.contact-info {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Email styling */
+.contact-email {
+    color: #00796b; /* A color that stands out */
+    text-decoration: none; /* Remove underline from email */
+}
+
+/* Acknowledgments and other text styling */
+.acknowledgments {
+    font-size: 1rem;
+    color: #757575; /* Light gray for secondary text */
+    margin-bottom: 1rem;
+}
+
+/* Button styling */
+.about-us-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #1976d2; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.about-us-button:hover {
+    background-color: #1565c0; /* Darker shade for hover */
+}
